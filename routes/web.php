@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/index',[IndexController::class,'index']);
 Route::get('/register',[RegisterController::class,'registerIndex'])->name('register-index');
+Route::post('/usercreate',[RegisterController::class,'userCreate'])->name('user-create');

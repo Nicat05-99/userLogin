@@ -8,6 +8,6 @@ class RegisterController extends Controller
 {
     public function registerIndex()
     {
-        return view('back.user.register');
+        return view('back.register.registerUser');
     }
 }
